@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import Wrap from "../components/Wrap"
 import Header from "../components/Header"
+import FrontPageGrid from "../components/FrontPageGrid"
 
 export default ({
   data: {
@@ -13,6 +14,7 @@ export default ({
 }) => (
   <Wrap>
     <Header title={name}></Header>
+    <FrontPageGrid></FrontPageGrid>
   </Wrap>
 )
 
