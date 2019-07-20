@@ -5,5 +5,12 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    name: `Lukas Kindermann`,
+  },
+  plugins: [
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-styled-components`,
+  ],
 }
